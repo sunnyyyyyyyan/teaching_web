@@ -37,6 +37,7 @@
     </div>
     <br>
     <div class="input-group">
+        <span class="input-group-addon">类型：</span>
         <select name="usertype" id="usertype" class="usertype">
             <option value="管理员">管理员</option>
             <option value="教师">教师</option>
@@ -50,10 +51,13 @@
     </div>
     <br>
     <div class="bottom">
-        <button class="btn btn-primary" type="button" data-toggle="button">
+        <button class="btn btn-primary" type="button" data-toggle="button" onclick="javascript:window.location.href='http://localhost:8080/testWeb/main.html'">
             登录
         </button>
     </div>
 </form>
+
+<script src="bootstrap/js/jquery-2.0.2.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
