@@ -6,41 +6,27 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>首页</title>
+      <link rel="stylesheet" href="bootstrap/css/index.css">
     <link rel="stylesheet" href="bootstrap/css/index.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
   </head>
   <body>
 
-  <div>
-    <div class="container-fluid"></div>
-    <div class="navbar-header">
-      <a href="#" class="navbar-brand">首页</a>
-    </div>
-    <div>
-      <ul class="nav navbar-nav">
-        <li class="dropdown active">
-          <a href="#" class="dropdown-toggle">系统管理
-            <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="#">添加用户</a></li>
-            <li><a href="#">查看用户</a></li>
-            <li><a href="#">修改密码</a></li>
-            <li><a href="#">注销登陆</a></li>
-          </ul>
-        </li>
-        <li><a href="#">成绩管理</a></li>
-        <li><a href="#">教务管理</a></li>
-        <li><a href="#">通知管理</a></li>
-        <li><a href="#">资源管理</a></li>
-      </ul>
-    </div>
+  <div class="content">
+      <div class="header">
+          <h2>欢迎来到教学质量监控系统</h2>
+          <a href="login.jsp">进入登录...</a>
+      </div>
+      <div class="mid">
+          <img src="assets/index.jpg" alt="index" class="img-circle">
+      </div>
 
   </div>
-
 
   </body>
 </html>
