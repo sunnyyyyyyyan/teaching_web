@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="bootstrap/js/jquery-2.0.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        .body{
+            background-image: url("assets/sky.jpg");
+        }
+        .main{
+            margin-left: 500px;
+            margin-top: 50px;
+        }
+        .header{
+            width: 660px;
+            border: 1px dotted gray;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+    </style>
+</head>
+<body class="body">
+<!--导航栏-->
+<div class="container navigation">
+    <div class="header">
+        <div class="navbar-header">
+            <a href="content.jsp" class="navbar-brand">首页</a>
+        </div>
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        系统管理
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">添加用户</a></li>
+                        <li><a href="#">查看用户</a></li>
+                        <li><a href="#">修改密码</a></li>
+                        <li><a href="#">注销登陆</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        成绩管理
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">录入成绩</a></li>
+                        <li><a href="#">查看成绩</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        教学评价
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">学评教</a></li>
+                        <li><a href="#">教师互评</a></li>
+                        <li><a href="#">学生互评</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        教务管理
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">教学任务</a></li>
+                        <li><a href="#">教学任务</a></li>
+                        <li><a href="#">教学任务</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        通知管理
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">发布通知</a></li>
+                        <li><a href="#">查看通知</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        资源管理
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">上传文件</a></li>
+                        <li><a href="#">查看文件</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+
+    </div>
+
+</div>
+<!--内容-->
+<div class="container main">
+
+</div>
+<!--底部-->
+<div id="footer"></div>
+</body>
+</html>

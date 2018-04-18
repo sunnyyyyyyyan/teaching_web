@@ -11,6 +11,9 @@
     <title>login</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <style>
+        .body{
+            background-image: url("assets/sky.jpg");
+        }
         .bs-example{
             margin: 100px;
         }
@@ -29,7 +32,7 @@
 
     </style>
 </head>
-<body>
+<body class="body">
 <form action="" class="bs-example bs-example-form">
     <div class="input-group">
         <span class="input-group-addon">用户名：</span>
@@ -51,7 +54,7 @@
     </div>
     <br>
     <div class="bottom">
-        <button class="btn btn-primary" type="button" data-toggle="button" onclick="javascript:window.location.href='http://localhost:8080/testWeb/main.html'">
+        <button class="btn btn-primary" type="button" data-toggle="button" onclick="javascript:window.location.href='top.html'">
             登录
         </button>
     </div>
